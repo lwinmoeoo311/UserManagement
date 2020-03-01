@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">User Management</string>
+
+    <string name="reg_name">Register</string>
+
+    <string name="register"><a href="">Register</a></string>
+
+    <string name="data_list">Content</string>
+</resources>

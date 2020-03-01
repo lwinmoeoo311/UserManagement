@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/sample_rv">
+
+        <ImageView
+            android:id="@+id/person_img"
+            android:src="@drawable/ic_person_black_24dp"
+            android:layout_width="80dp"
+            android:layout_height="60dp"/>
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:layout_toRightOf="@+id/person_img"/>
+
+        <TextView
+            android:id="@+id/age_tv"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:layout_below="@+id/name_tv"
+            android:layout_toRightOf="@+id/person_img"/>
+
+        <TextView
+            android:id="@+id/mail_tv"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Mail:"
+            android:layout_below="@id/age_tv"
+            android:layout_toRightOf="@+id/person_img"/>
+
+        <ImageView
+            android:id="@+id/edit_img"
+            android:src="@drawable/ic_edit_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/age_tv"/>
+
+        <ImageView
+            android:id="@+id/delete_img"
+            android:src="@drawable/ic_delete_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_img"
+            android:layout_toRightOf="@+id/mail_tv"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
